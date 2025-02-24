@@ -1,5 +1,5 @@
 import React from "react";
-const Contactbg = dynamic(() => import("../components/3DBg/Contactbg"));
+import Contactbg from "../components/3DBg/Contactbg";
 
 export default function ContactPage() {
   return (
