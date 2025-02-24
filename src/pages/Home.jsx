@@ -1,14 +1,11 @@
 import React from "react";
-
-import Homebg from './../components/3DBg/Homebg';
-
-
+const Homebg = dynamic(() => import("./../components/3DBg/Homebg"));
 
 const Home = () => {
   return (
     <>
       <div id="home">
-      <Homebg />
+        <Homebg />
       </div>
     </>
   );

@@ -11,18 +11,18 @@ const projects = [
     tech: [<FaReact />, <FaNodeJs />, <DiMongodb />, <SiExpress />],
     image: "https://picsum.photos/200",
     live: "#",
-    code: "#",
+    code: "https://github.com/Rajender216/E-commerce",
   },
   {
     title: "CloudVids - Storage Cloud",
-    tech: [<FaPython />, <RiNextjsFill />, <SiAppwrite />],
+    tech: [<FaNodeJs />, <RiNextjsFill />, <SiAppwrite />],
     image: "https://picsum.photos/200",
-    live: "#",
-    code: "#",
+    live: "cloud-vids.vercel.app",
+    code: "https://github.com/Rajender216/CloudVids",
   },
   {
     title: "Coming Soon...",
-    tech: [],
+    tech: [<FaNodeJs />],
     image: "https://picsum.photos/200",
     live: "#",
     code: "#",
@@ -62,7 +62,6 @@ const ProjectCard = ({ project }) => {
             <h3 className="text-2xl font-bold text-white mb-2">
               {project.title}
             </h3>
-        
 
             {/* Tech Stack */}
             <div className="flex gap-3 mb-6">
@@ -80,13 +79,13 @@ const ProjectCard = ({ project }) => {
             <div className="flex gap-4 ">
               <a
                 href={project.live}
-                className="flex items-center text-white hover:text-purple-400 transition-colors"
+                className="flex items-center text-white hover:text-purple-400 transition-colors cursor-pointer"
               >
                 <FiExternalLink className="mr-2" /> Live Demo
               </a>
               <a
                 href={project.code}
-                className="flex items-center text-white hover:text-purple-400 transition-colors"
+                className="flex items-center text-white hover:text-purple-400 transition-colors cursor-pointer"
               >
                 <FiGithub className="mr-2" /> Code
               </a>
