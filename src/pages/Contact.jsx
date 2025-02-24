@@ -1,11 +1,11 @@
 import React from "react";
-const Contactbg = dynamic(() => import("../components/3DBg/Contactbg"));
+import Contactbg from "../components/3DBg/Contactbg";
 
 export default function ContactPage() {
   return (
     <div
       id="contact"
-      className="min-h-[100vh] bg-black flex flex-col md:flex-row overflow-x-hidden"
+      className="min-h-[100vh] bg-black flex flex-col md:flex-row overflow-x-hidden border-b-4 border-teal-800"
     >
       {/* Contact Details Section */}
       <div className="w-full md:w-1/2 p-4 sm:p-6 lg:p-10 flex items-center justify-center order-2 md:order-1">
@@ -69,7 +69,7 @@ export default function ContactPage() {
       </div>
 
       {/* Spline Section */}
-      <div className="w-full md:w-1/2 min-h-1/2 md:h-screen p-4 sm:p-6 lg:p-10 flex items-center justify-center order-1 md:order-2">
+      <div className="hidden md:flex w-full md:w-1/2 md:h-screen p-4 sm:p-6 lg:p-10 items-center justify-center order-1 md:order-2">
         <div className="w-full h-full relative max-w-2xl mx-auto flex justify-center items-center ">
           <Contactbg className="w-auto h-full bg-cover" />
         </div>

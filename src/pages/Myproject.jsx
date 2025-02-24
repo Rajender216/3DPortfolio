@@ -107,7 +107,7 @@ export default function ProjectsShowcase() {
   return (
     <div
       id="projects"
-      className="min-h-screen bg-black relative overflow-hidden py-20"
+      className="min-h-screen bg-black relative overflow-hidden py-20 border-b-4 border-teal-800"
     >
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">

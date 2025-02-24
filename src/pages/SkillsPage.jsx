@@ -38,7 +38,10 @@ const skills = [
 
 export default function SkillsPage() {
   return (
-    <div id="skills" className="min-h-screen bg-black relative overflow-hidden">
+    <div
+      id="skills"
+      className="min-h-screen bg-black relative overflow-hidden border-b-4 border-teal-800"
+    >
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute w-96 h-96 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-3xl opacity-10 animate-float"></div>
