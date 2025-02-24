@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 p-0;
+}
+
+/* navbar */
+
+.navbar {
+  @apply  bg-black w-full flex justify-between text-white font-semibold pt-3 px-7 shadow-orange-500 shadow-md pb-3 mb-1 ;
+}
+
+
+
+
+
+.abovebg{
+  @apply absolute z-10 text-black text-center;
+}
+
+
