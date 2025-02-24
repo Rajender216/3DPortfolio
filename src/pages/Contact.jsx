@@ -17,7 +17,7 @@ export default function ContactPage() {
           <div className="space-y-3 sm:space-y-4 mb-6 md:mb-8">
             <p className="text-base sm:text-lg md:text-xl text-gray-300 flex items-center gap-2">
               <span>📍</span>
-              <span>123 Design Street, Creative City, CC 4567</span>
+              <span>Bikaner, Rajasthan, India - 334001</span>
             </p>
             <p className="text-base sm:text-lg md:text-xl text-gray-300 flex items-center gap-2">
               <span>📞</span>

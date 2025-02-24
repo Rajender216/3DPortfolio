@@ -1,4 +1,3 @@
-import { div } from "framer-motion/client";
 import Homebg from "../components/3DBg/Homebg"; // Make sure to import your Homebg component
 import "../index.css";
 
@@ -23,7 +22,7 @@ export default function Home() {
 
       <div className="w-full md:w-1/2 lg:w-[45%] text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold p-4 md:p-6 rounded-lg text-center md:text-left shadow-[0_20px_50px_rgba(0,255,255,0.3)] hover:shadow-[0_25px_60px_rgba(0,255,255,0.4)]">
         <h1 className="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-4">
-          Hello!  I am 
+          Hello! I am
         </h1>
         <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
           Rajender Chhimpa
@@ -35,4 +34,3 @@ export default function Home() {
     </div>
   );
 }
-
