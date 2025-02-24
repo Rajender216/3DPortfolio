@@ -1,6 +1,5 @@
 import { div } from "framer-motion/client";
 import Homebg from "../components/3DBg/Homebg"; // Make sure to import your Homebg component
-//import index.css
 import "../index.css";
 
 export default function Home() {
